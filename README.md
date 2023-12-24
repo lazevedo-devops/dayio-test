@@ -45,9 +45,9 @@ minikube -n production service <SERVICE_NAME>
 
 This script basically will perform automatically 3 big steps:
 
-* Check software dependencies
-* Create a minikube cluster
-* Install the helm Charts for Dayio Applications
+* **Check software dependencies:** Minikube, Helm, Kubectl. 
+* **Create a minikube cluster:** With 2 nodes and naming the profile as dayio.
+* **Install the helm Charts for Dayio Applications:** User Service, Product Service and Order Service.
 
 The Script also will let you know about each step executed and if you have some question or want to receive more informations you can go to the LogDir and check the complete output from the command executions.
 
